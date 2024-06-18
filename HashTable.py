@@ -38,6 +38,7 @@ class Create_Hashtable:
         bucket_list = self.table[bucket]
 
         # Iterate over each key value pair in the bucket and return if found
+        # kv[0] = package ID
         for kv in bucket_list:
             if kv[0] == key:
                 return kv[1]

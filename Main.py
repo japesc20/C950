@@ -139,10 +139,18 @@ def deliver_packages(truck):
         truck.packages.append(next_package.package_id)
         en_route.remove(next_package)
         truck.mileage += next_address
+
+        # Warning message: If total mileage exceeded a max limit of 140 miles
+        if truck.mileage > 140:
+            print("Warning: Distance limit exceeded!")
+            return False
+
         truck.address = next_package.address
         truck.time += datetime.timedelta(hours=next_address / 18)
         next_package.delivery_time = truck.time
         next_package.departure_time = truck.departure_time
+
+    return True
 
 
 # Method calls for each truck
