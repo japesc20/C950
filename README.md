@@ -1,8 +1,8 @@
-University Postal Service Delivery System
+# University Postal Service Delivery System
 
-Language: Python
+### Language: Python
 
-WGU - C950
+### WGU - C950
 
 Scenerio:
 The purpose of this project is to create a data structure and algorithm for the Western Governors University Parcel Service (WGUPS) to determine the best route and delivery distribution for their Salt Lake City Daily Local Deliveries. 
