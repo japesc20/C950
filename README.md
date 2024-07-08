@@ -19,4 +19,4 @@ Hash tables use key-value pairs to make insertion, deletion, and data retrieval 
 While each key-value pair is stored in an element also referred to as a “bucket”, each bucket typically can contain multiple pairs, in use for collision handling. 
 
 
-Main function outputs a user friendly and interactive console interface, containing delivery information for all packages or individual packages depending on user input. To see the specific requirements for this project, go to ProjectReq.txt.
+Main function outputs a user friendly and interactive console interface, containing delivery information for all packages or individual packages depending on user input. To see the specific requirements for this project, go to ProjectReq.md.
