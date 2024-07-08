@@ -1,7 +1,3 @@
-# Reference:
-# C950 - Webinar-1 - Let’s Go Hashing - Complete Python Code
-# Ref: zyBooks: Figure 7.8.2: Hash table using chaining.
-
 class Create_Hashtable:
 
     # Initialize constructor with optional size parameter
